@@ -1,0 +1,29 @@
+header#top.navbar.navbar-static-top.bs-docs-nav(role='banner')
+    .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.bs-navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/')
+            img(src='images/trailstone-logo-dark-blue.png')
+        nav.collapse.navbar-collapse.bs-navbar-collapse(role='navigation')
+          ul.nav.navbar-nav.navbar-right
+            li.dropdown(role='presentation')
+              a.dropdown-toggle(data-toggle='dropdown', href='about', role='button', aria-expanded='false')
+                | About
+                span.caret
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='') Experience
+                  li
+                    a(href='#') Executive Team
+                  li
+                    a(href='#') Press
+            li
+              a(href='focus') Focus
+            li
+              a(href='investment') Investment
+            li
+              a(href='contact') Contact

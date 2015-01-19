@@ -1,0 +1,276 @@
+@import '_bootstrap/bootstrap';
+
+/* Global Styles */
+
+body {margin-bottom: 25px; margin-top: 50px !important;}
+
+.wrapper h1{
+  padding: 20px 0;
+  color: #004963;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.wrapper h2{
+  padding: 15px 0;
+  color: #72aeb6;
+  font-weight: 400;
+}
+
+.wrapper p {color: #555;}
+
+h3{font-weight: 300;}
+
+.wrapper a {color: #004963;}
+
+/*  Main Navigation */
+
+.nav {display: inline; text-transform: uppercase; }
+.navbar-nav>li>a, .navbar-nav>li>a:visited {color: #72aeb6;}
+.navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #004963;}
+.navbar-brand {padding-top: 10px !important}
+.navbar-brand img {width: 262px; height: 28px;}
+
+header#top {background: #fcfcfc; border-bottom: 1px solid #fcfcfc;}
+
+@media screen and (max-width: 320px) {
+  .wrapper h1 {
+    font-size: 33px;
+    padding: 0px;}
+  body {margin-top: 40px !important;}
+  .navbar-brand img {width: 228px; height: 24px;}
+}
+
+
+/* Dropdown hover css fix for parent click issue */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative !important;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: -6px !important;
+    margin-left: -1px !important;
+    border-radius: 0 !important;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block !important;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-top: -18px;
+    right: 15px;
+    position: absolute;
+    font-weight: 300;
+}
+
+/* Footer */
+
+
+footer {background: #004963; color: #ffffff; height: 80px; padding: 15px; margin-top: 40px;}
+footer a, footer a:active, footer a:visited {color: #ffffff;}
+footer a:hover {color: #ffffff; text-decoration: underline;}
+
+/* Homepage */
+
+.hp-hero {text-align: center;}
+.hp-thirds {max-width: 290px; font-weight: 300;}
+.hp-thirds a {font-weight: 400;}
+.ts-homepage h1 {
+  text-transform: none;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 480px) {
+  .hp-hero img {width: 480px;}
+}
+
+@media screen and (max-width: 320px) {
+  .hp-hero img {width: 320px;}
+  .ts-homepage .col-sm-12 {padding: 0px;}
+}
+
+/* footer fix */
+.sidebar-page-content {min-height: 488px !important;}
+
+/* Team Page */
+
+.team-grid .title {font-weight: bold; color: #004963;}
+.team-grid h2 {font-size: 26px;}
+.team-grid img {float:left; margin-right: 20px;}
+h1.team {padding-bottom: 0px;}
+h2.team {padding-top: 0px;}
+img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
+
+@media screen and (max-width: 320px) {
+  .team-grid img {float: none;}
+  .wrapper .team-grid h2 {padding: 0px;}
+  .team-grid {margin-bottom: 35px;}
+  img.team {float: none; margin-left: 0px; display: block; clear: both;}
+
+  }
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .col-xs-12 .nav-sidebar {
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+    .col-md-3 .nav-sidebar {
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+    .col-xs-12 .nav-sidebar {
+      display: block;
+  }
+}
+
+.nav-sidebar ul li {
+  border-bottom: 1px solid #E0DEDE;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin-right: 20px; 
+  list-style-type: none;
+}
+
+.nav-sidebar ul li ul {
+  padding-top: 10px;
+}
+.nav-sidebar ul ul li {
+  padding: 10px 0px 10px;
+  font-size: 13px;  
+  border-bottom: 1px solid #E0DEDE;
+  margin-right: 20px;
+}
+
+.nav-sidebar ul li.last{
+  border-bottom: none;
+}
+
+.nav-sidebar ul li a, .nav-sidebar ul li a:visited {
+  text-decoration: none;
+  color: #004963;
+}
+.nav-sidebar ul li a:hover, .nav-sidebar ul li a.active{
+  color: #004963;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+  text-decoration: none;
+
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.navbar-toggle .icon-bar {
+  background: #004963;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}

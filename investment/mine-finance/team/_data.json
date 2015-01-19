@@ -1,0 +1,21 @@
+{
+	"index": {
+        "site_url": "team",
+        "title": "Mine Finance Team - Trailstone",
+        "left_side_nav": "_investment-nav-sidebar"
+    },
+
+
+    "raymond-key": {
+        "site_url": "raymond-key",
+        "title": "Raymond Key - Trailstone",
+        "left_side_nav": "_investment-nav-sidebar"
+
+    },
+    "zan-johan": {
+        "site_url": "zan-johan",
+        "title": "Zan Johan - Trailstone",
+        "left_side_nav": "_investment-nav-sidebar"
+
+    }
+}

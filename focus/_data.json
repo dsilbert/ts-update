@@ -1,0 +1,16 @@
+{
+	"index": {
+        "site_url": "focus",
+        "title": "Focus - Trailstone",
+         "left_side_nav": "_focus-nav-sidebar"
+
+    },
+
+
+    "asset-management": {
+        "site_url": "asset-management",
+        "title": "Asset Management - Trailstone",
+         "left_side_nav": "_focus-nav-sidebar"
+
+    }
+}

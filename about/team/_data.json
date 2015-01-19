@@ -1,0 +1,59 @@
+{
+
+    "index": {
+        "site_url": "team",
+        "title": "Team - Trailstone",
+        "description": "Trailstone's Executive team includes the following:",
+        "left_side_nav": "_about-nav-sidebar"
+
+    },
+
+    "ante-pogacic": {
+        "site_url": "ante-pogacic",
+        "title": "Ante Pogacic - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+
+    },
+
+    "david-silbert": {
+        "site_url": "david-silbert",
+        "title": "David Silbert - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "jarek-kozlowski": {
+        "site_url": "jarek-kozlowski",
+        "title": "Jarek Kozlowski - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "john-redpath": {
+        "site_url": "john-redpath",
+        "title": "John Redpath - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "raymond-key": {
+        "site_url": "raymond-key",
+        "title": "Raymond Key - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "sandra-rosignoli": {
+        "site_url": "sandra-rosignoli",
+        "title": "Sandara Rosignoli - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "troy-martin": {
+        "site_url": "troy-martin",
+        "title": "Troy Martin - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    },
+
+     "william-gebhardt": {
+        "site_url": "william-gebhardt",
+        "title": "William Gebhardt - Trailstone",
+        "left_side_nav": "_about-nav-sidebar"
+    }
+}

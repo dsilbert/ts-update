@@ -1,0 +1,40 @@
+header#top.navbar.navbar-static-top.navbar-fixed-top(role='banner')
+    .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.bs-navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/')
+            img(src='/images/trailstone-logo-blue-524x58.png')
+        nav.collapse.navbar-collapse.bs-navbar-collapse(role='navigation')
+          ul.nav.navbar-nav.navbar-right
+            li.dropdown
+              a.dropdown-toggle(href='/about', role='button', aria-expanded='false') About
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/about/experience') Experience
+                  li
+                    a(href='/about/team') Executive Team
+                  li
+                    a(href='/about/press') Press
+
+            li.dropdown
+              a.dropdown-toggle(href='/focus', role='button', aria-expanded='false') Focus
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/focus/') Overview
+                  li
+                    a(href='/focus/physical-platform') Physical Platform
+                  li
+                    a(href='/focus/asset-management') Asset Management
+            li.dropdown
+              a.dropdown-toggle(href='/investment', role='button', aria-expanded='false') Investment
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/investment/mine-finance') Mine Finance 
+                  li
+                    a(href='/investment/upstream-oil-gas') Upstream Oil & Gas 
+            li
+              a(href='/contact') Contact

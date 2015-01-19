@@ -1,0 +1,11 @@
+.nav-sidebar
+  ul
+    li 
+      a(href='/focus/' class="#{ current.source == 'index' ? 'active' : '' }") Focus
+    li 
+      a(href='/focus/physical-platform/' class="#{ current.source == 'physical-platform' ? 'active' : '' }") Physical Platform
+    ul
+      li
+        a(href='/focus/physical-platform/gas-power-team' class="#{ current.source == 'gas-power-team' ? 'active' : '' }") Gas & Power Team
+    li.last
+      a(href='/focus/asset-management' class="#{ current.source == 'team' ? 'active' : '' }") Asset Management

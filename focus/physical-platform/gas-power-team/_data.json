@@ -1,0 +1,36 @@
+{
+	"index": {
+        "site_url": "gas-power-team",
+        "title": "Gas & Power Team - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar"
+
+    },
+
+    "ante-pogacic": {
+        "site_url": "ante-pogacic",
+        "title": "Ante Pogacic - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar"
+
+    },
+
+    "brad-blesie": {
+        "site_url": "brad-blesie",
+        "title": "Brad Blesie - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar"
+
+    },
+
+    "mark-strange": {
+        "site_url": "mark-strange",
+        "title": "Mark Strange - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar"
+
+    },
+
+    "william-gebhardt": {
+        "site_url": "william-gebhardt",
+        "title": "William Gebhardt - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar"
+
+    }
+}
