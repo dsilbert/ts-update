@@ -2,7 +2,7 @@
 
 /* Global Styles */
 
-body {margin-bottom: 25px; margin-top: 50px !important;}
+body {margin-bottom: 25px; margin-top: 50px !important; font-family: Open Sans, sans-serif !important;}
 
 .wrapper h1{
   padding: 20px 0;
@@ -25,13 +25,52 @@ h3{font-weight: 300;}
 
 /*  Main Navigation */
 
-.nav {display: inline; text-transform: uppercase; }
-.navbar-nav>li>a, .navbar-nav>li>a:visited {color: #72aeb6;}
-.navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #004963;}
-.navbar-brand {padding-top: 10px !important}
-.navbar-brand img {width: 262px; height: 28px;}
+.nav {display: inline; text-transform: uppercase; font-weight: 600; }
+.navbar {min-height: 60px !important;}
+.navbar-nav>li>a, .navbar-nav>li>a:visited {color: #ffffff; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #004963 !important;}
+.navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #72aeb6;}
+.navbar-brand {padding-top: 17px !important;}
+.navbar-brand img {width: 206px; height: 22px;}
+.dropdown-menu > li > a {background: #004963; color: #ffffff !important;}
 
-header#top {background: #fcfcfc; border-bottom: 1px solid #fcfcfc;}
+
+/* Homepage Specific Styles */
+
+.homepage header#top {background: #004963; border-bottom: 1px solid #c9dad1;}
+.homepage {background: #ededed;}
+.homepage h1 {color: #ffffff;}
+.homepage h2 {color: #004963; font-size: 42px; text-align: center; font-weight: 600;}
+.homepage h3 {color: #ffffff; font-size: 28px; line-height: 36px; text-align: center; font-weight: 600;text-transform: uppercase; }
+.our-services {}
+.hp-3rd-colorbox {display: block;}
+.hp-3rd-colorbox img {text-align: center; margin-right: auto; margin-left: auto; width: 162px; padding-top: 70px;}
+.physical-platform {background: #004963;}
+.asset-management {background: #72aeb6;}
+.commodity-finance {background: #e7cf00;}
+.hp-thirds-button {display: block; text-align: center; text-transform: uppercase; bottom: 0; font-size: 17px; font-weight: 600; padding: 15px; color: #ffffff;}
+.wrapper a.hp-thirds-button {color: #ffffff;}
+.hp-thirds {max-width: 300px; margin-top: 30px; font-weight: 400;}
+.hp-thirds a {font-weight: 400;}
+.ts-homepage h1 {
+  text-transform: none;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 480px) {
+  .hp-hero img {width: 480px;}
+}
+
+@media screen and (max-width: 320px) {
+  .hp-hero img {width: 320px;}
+  .ts-homepage .col-sm-12 {padding: 0px;}
+}
+
+
+/* End Homepage Specific Styles */
+
+
+
+header#top {background: #ffffff;}
 
 @media screen and (max-width: 320px) {
   .wrapper h1 {
@@ -79,24 +118,6 @@ footer {background: #004963; color: #ffffff; height: 80px; padding: 15px; margin
 footer a, footer a:active, footer a:visited {color: #ffffff;}
 footer a:hover {color: #ffffff; text-decoration: underline;}
 
-/* Homepage */
-
-.hp-hero {text-align: center;}
-.hp-thirds {max-width: 290px; font-weight: 300;}
-.hp-thirds a {font-weight: 400;}
-.ts-homepage h1 {
-  text-transform: none;
-  font-weight: 200;
-}
-
-@media screen and (max-width: 480px) {
-  .hp-hero img {width: 480px;}
-}
-
-@media screen and (max-width: 320px) {
-  .hp-hero img {width: 320px;}
-  .ts-homepage .col-sm-12 {padding: 0px;}
-}
 
 /* footer fix */
 .sidebar-page-content {min-height: 488px !important;}
