@@ -4,13 +4,15 @@
         "site_url": "press",
         "title": "Press - Trailstone",
         "description": "Press contact: enquiry@trailstonegroup.com",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Press"
         },
 
     "trailstone-acquires-u-s-oil-refining-co": {
         "site_url": "trailstone-acquires-u-s-oil-refining-co",
         "title": "TrailStone Acquires U.S. Oil and Refining Co",
         "description": "TrailStone today announced that it has acquired U.S. Oil and Refining Co. (USOR).",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Press"
         }
 }

@@ -3,14 +3,8 @@
         "site_url": "about",
         "title": "About - Trailstone",
         "description": "TrailStone was formed in April 2013 and is a group of separate companies, each staffed by energy and finance professionals with in-depth experience of mining, oil and gas",
-        "left_side_nav": "_about-nav-sidebar"
-    },
-
-	"experience": {
-        "site_url": "experience",
-        "title": "Experience - Trailstone",
-        "description": "The senior TrailStone partners are Bill Gebhardt, Raymond Key, Troy Martin, John Redpath and David Silbert",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "About Trailstone"
     }
 
 }

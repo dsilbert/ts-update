@@ -5,16 +5,20 @@
         "description": "Through vision, integrity and collaboration, we create a platform for partnership and shared success",
         "layout": "_hp-layout"
     },
+ 
 
-    "about": {
-        "site_url": "about",
-        "title": "Trailstone - About",
-        "description": "TrailStone was formed in April 2013 and is a group of separate companies, each staffed by energy and finance professionals with in-depth experience of mining"
-    }, 
+    "industries": {
+        "site_url": "industries",
+        "title": "Industries - Trailstone",
+        "description": "trailstone industries...",
+        "page_name": "Industries"
+        
+    },
 
     "contact": {
         "site_url": "contact",
         "title": "Contact - Trailstone", 
-        "description": "We have offices in London, New York, Austin, Berlin, and Sydney."
+        "description": "We have offices in London, New York, Austin, Berlin, and Sydney.",
+        "page_name": "Contact"
     }
 }

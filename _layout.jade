@@ -6,14 +6,16 @@ html
   body
     block nav
       != partial('_nav')
-    .container  
+    .banner-header
+      h1 #{page_name}
+    .container
       .wrapper
         .row
-          .col-md-3.col-sm-3
+          .col-md-8.col-sm-9.sidebar-page-content
+            != yield
+          .col-md-4.col-sm-4
             block nav-sidebar
               != partial(left_side_nav)
-          .col-md-9.col-sm-9.sidebar-page-content
-            != yield
         .row
           .col-xs-12
             block nav-sidebar

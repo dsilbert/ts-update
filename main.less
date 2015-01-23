@@ -2,22 +2,28 @@
 
 /* Global Styles */
 
-body {margin-bottom: 25px; margin-top: 50px !important; font-family: Open Sans, sans-serif !important;}
+body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !important; font-family: Open Sans, sans-serif !important;}
 
 .wrapper h1{
-  padding: 20px 0;
+  padding: 0px;
   color: #004963;
   text-transform: uppercase;
   font-weight: 400;
 }
 
+
 .wrapper h2{
   padding: 15px 0;
   color: #72aeb6;
   font-weight: 400;
+
 }
 
-.wrapper p {color: #555;}
+.banner-header {display: block;}
+.blue-banner {background: #004963;}
+.banner-header h1 {text-align: center; text-transform: uppercase; color: #fff; padding: 44px; font-weight: 600; font-size: 42px; margin: 0px;}
+
+.wrapper p {color: #333; font-size: 15px; line-height: 23px;}
 
 h3{font-weight: 300;}
 
@@ -27,34 +33,64 @@ h3{font-weight: 300;}
 
 .nav {display: inline; text-transform: uppercase; font-weight: 600; }
 .navbar {min-height: 60px !important;}
-.navbar-nav>li>a, .navbar-nav>li>a:visited {color: #ffffff; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #004963 !important;}
-.navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #72aeb6;}
 .navbar-brand {padding-top: 17px !important;}
 .navbar-brand img {width: 206px; height: 22px;}
-.dropdown-menu > li > a {background: #004963; color: #ffffff !important;}
+.navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #72aeb6;}
+.dropdown-menu > li > a {background: #ffffff; color: #004963 !important;}
+header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
+.navbar-nav>li>a, .navbar-nav>li>a:visited {color: #004963; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #ffffff !important;}
+.dropdown-menu {background: #ffffff !important; border: none !important;}
 
 
 /* Homepage Specific Styles */
-
+.homepage .navbar-nav>li>a.active, .homepage .navbar-nav>li>a:hover {color: #72aeb6;}
+.homepage .dropdown-menu > li > a {background: #004963; color: #ffffff !important;}
 .homepage header#top {background: #004963; border-bottom: 1px solid #c9dad1;}
+.homepage .navbar-nav>li>a, .homepage .navbar-nav>li>a:visited {color: #ffffff; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #004963 !important;}
+
 .homepage {background: #ededed;}
 .homepage h1 {color: #ffffff;}
-.homepage h2 {color: #004963; font-size: 42px; text-align: center; font-weight: 600;}
+.homepage h2 {color: #004963; font-size: 42px; text-align: center; font-weight: 600; margin: 20px auto;}
 .homepage h3 {color: #ffffff; font-size: 28px; line-height: 36px; text-align: center; font-weight: 600;text-transform: uppercase; }
 .our-services {}
-.hp-3rd-colorbox {display: block;}
-.hp-3rd-colorbox img {text-align: center; margin-right: auto; margin-left: auto; width: 162px; padding-top: 70px;}
+.hp-3rd-colorbox {display: block; width: 360px; height: 360px;}
+.hp-3rd-colorbox img {text-align: center; margin-right: auto; margin-left: auto; width: 162px; padding-top: 75px;}
+.hp-3rd-colorbox a:hover {text-decoration: none;}
 .physical-platform {background: #004963;}
 .asset-management {background: #72aeb6;}
 .commodity-finance {background: #e7cf00;}
 .hp-thirds-button {display: block; text-align: center; text-transform: uppercase; bottom: 0; font-size: 17px; font-weight: 600; padding: 15px; color: #ffffff;}
 .wrapper a.hp-thirds-button {color: #ffffff;}
-.hp-thirds {max-width: 300px; margin-top: 30px; font-weight: 400;}
+.hp-thirds {max-width: 360px; margin-top: 30px; font-weight: 400; height: 150px;}
 .hp-thirds a {font-weight: 400;}
 .ts-homepage h1 {
   text-transform: none;
   font-weight: 200;
 }
+
+.homepage .dropdown-menu {background: #004963 !important; border: 1px solid #c9dad1 !important;}
+
+
+/* Testing out CSS box with centered content
+
+.parent-vcenter-box {
+  position: relative; 
+  width: 360px; 
+  height: 360px; 
+}
+.vcenter-box {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    text-align: center;
+    width: 360px;
+    color: #fff;
+  }
+ */
 
 @media screen and (max-width: 480px) {
   .hp-hero img {width: 480px;}
@@ -120,11 +156,11 @@ footer a:hover {color: #ffffff; text-decoration: underline;}
 
 
 /* footer fix */
-.sidebar-page-content {min-height: 488px !important;}
+.sidebar-page-content {min-height: 488px !important; margin-top: 40px;}
 
 /* Team Page */
-
-.team-grid .title {font-weight: bold; color: #004963;}
+.team-grid {margin-bottom: 75px;}
+.team-grid .title {font-weight: 600; color: #004963;}
 .team-grid h2 {font-size: 26px;}
 .team-grid img {float:left; margin-right: 20px;}
 h1.team {padding-bottom: 0px;}
@@ -190,7 +226,7 @@ img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
 }
 
 .nav-sidebar ul li {
-  border-bottom: 1px solid #E0DEDE;
+  border-bottom: 1px solid #c9dad1;
   font-size: 16px;
   padding: 10px 0px;
   margin-right: 20px; 
@@ -203,7 +239,7 @@ img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
 .nav-sidebar ul ul li {
   padding: 10px 0px 10px;
   font-size: 13px;  
-  border-bottom: 1px solid #E0DEDE;
+  border-bottom: 1px solid #c9dad1;
   margin-right: 20px;
 }
 
@@ -295,3 +331,8 @@ img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
   display: inline-block;
   border-radius: 50%;
 }
+
+
+/* Press page styles */
+
+.presslink {font-size: 22px; font-weight: 600; line-height: 28px;}

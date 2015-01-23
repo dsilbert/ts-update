@@ -4,56 +4,65 @@
         "site_url": "team",
         "title": "Team - Trailstone",
         "description": "Trailstone's Executive team includes the following:",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
 
     },
 
     "ante-pogacic": {
         "site_url": "ante-pogacic",
         "title": "Ante Pogacic - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar", 
+        "page_name": "Executive Team"
 
     },
 
     "david-silbert": {
         "site_url": "david-silbert",
         "title": "David Silbert - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "jarek-kozlowski": {
         "site_url": "jarek-kozlowski",
         "title": "Jarek Kozlowski - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "john-redpath": {
         "site_url": "john-redpath",
         "title": "John Redpath - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "raymond-key": {
         "site_url": "raymond-key",
         "title": "Raymond Key - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "sandra-rosignoli": {
         "site_url": "sandra-rosignoli",
         "title": "Sandara Rosignoli - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "troy-martin": {
         "site_url": "troy-martin",
         "title": "Troy Martin - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     },
 
      "william-gebhardt": {
         "site_url": "william-gebhardt",
         "title": "William Gebhardt - Trailstone",
-        "left_side_nav": "_about-nav-sidebar"
+        "left_side_nav": "_about-nav-sidebar",
+        "page_name": "Executive Team"
     }
 }
