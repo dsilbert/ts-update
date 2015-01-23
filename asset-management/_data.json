@@ -1,0 +1,27 @@
+{
+	"index": {
+        "site_url": "asset-management",
+        "title": "Asset Management - Trailstone",
+        "left_side_nav": "_asset-nav-sidebar",
+        "page_name": "Asset Management"
+
+    },
+
+    "european-power-gas": {
+        "site_url": "european-power-gas",
+        "title": "European Power & Gas - Trailstone",
+        "left_side_nav": "_asset-nav-sidebar",
+        "page_name": "European Power & Gas"
+
+    },
+
+    "north-american-power-gas": {
+        "site_url": "north-american-power-gas",
+        "title": "North American Power & Gas - Trailstone",
+        "left_side_nav": "_asset-nav-sidebar",
+        "page_name": "North American Power & Gas"
+
+    }
+
+    
+}

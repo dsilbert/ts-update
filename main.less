@@ -14,6 +14,13 @@ body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !imp
 
 .wrapper h2{
   padding: 15px 0;
+  color: #004963;
+  font-weight: 400;
+
+}
+
+.wrapper h3{
+  padding: 15px 0;
   color: #72aeb6;
   font-weight: 400;
 
@@ -36,10 +43,42 @@ h3{font-weight: 300;}
 .navbar-brand {padding-top: 17px !important;}
 .navbar-brand img {width: 206px; height: 22px;}
 .navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #72aeb6;}
-.dropdown-menu > li > a {background: #ffffff; color: #004963 !important;}
+.dropdown-menu > li > a {background: #ffffff; color: #004963 !important; font-weight: 600 !important;}
 header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
 .navbar-nav>li>a, .navbar-nav>li>a:visited {color: #004963; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #ffffff !important;}
 .dropdown-menu {background: #ffffff !important; border: none !important;}
+.dropdown-menu>li>a:hover,  .dropdown-menu>li>a:active {background: #72aeb6 !important;}
+
+
+/* Dropdown hover css fix for parent click issue */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative !important;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: -6px !important;
+    margin-left: -1px !important;
+    border-radius: 0 !important;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block !important;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: "\f105";
+    font-family: 'FontAwesome';
+    margin-top: -18px;
+    right: 15px;
+    position: absolute;
+    font-weight: 300;
+}
 
 
 /* Homepage Specific Styles */
@@ -51,9 +90,14 @@ header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
 .homepage {background: #ededed;}
 .homepage h1 {color: #ffffff;}
 .homepage h2 {color: #004963; font-size: 42px; text-align: center; font-weight: 600; margin: 20px auto;}
-.homepage h3 {color: #ffffff; font-size: 28px; line-height: 36px; text-align: center; font-weight: 600;text-transform: uppercase; }
+.homepage h3, .full-width-page h3 {color: #ffffff; font-size: 28px; line-height: 36px; text-align: center; font-weight: 600;text-transform: uppercase; }
 .our-services {}
-.hp-3rd-colorbox {display: block; width: 360px; height: 360px;}
+.hp-3rd-colorbox, .hp-3rd-colorbox a, .hp-3rd-colorbox a:hover {display: block; width: 360px; height: 360px; color: #ffffff;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+font-weight: 600;
+text-transform: uppercase;}
 .hp-3rd-colorbox img {text-align: center; margin-right: auto; margin-left: auto; width: 162px; padding-top: 75px;}
 .hp-3rd-colorbox a:hover {text-decoration: none;}
 .physical-platform {background: #004963;}
@@ -117,42 +161,13 @@ header#top {background: #ffffff;}
 }
 
 
-/* Dropdown hover css fix for parent click issue */
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.dropdown-submenu {
-    position: relative !important;
-}
-
-.dropdown-submenu>.dropdown-menu {
-    top: 0 !important;
-    left: 100% !important;
-    margin-top: -6px !important;
-    margin-left: -1px !important;
-    border-radius: 0 !important;
-}
-
-.dropdown-submenu:hover>.dropdown-menu {
-    display: block !important;
-}
-
-.dropdown-submenu>a:after {
-    display: block;
-    content: "\f105";
-    font-family: 'FontAwesome';
-    margin-top: -18px;
-    right: 15px;
-    position: absolute;
-    font-weight: 300;
-}
 
 /* Footer */
 
 
-footer {background: #004963; color: #ffffff; height: 80px; padding: 15px; margin-top: 40px;}
-footer a, footer a:active, footer a:visited {color: #ffffff;}
-footer a:hover {color: #ffffff; text-decoration: underline;}
+footer {background: #004963; color: #f5f5f5; font-size: 12px; height: 80px; padding: 15px; margin-top: 40px;}
+footer a, footer a:active, footer a:visited {color: #f5f5f5;}
+footer a:hover {color: #f5f5f5; text-decoration: underline;}
 
 
 /* footer fix */

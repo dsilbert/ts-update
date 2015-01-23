@@ -1,0 +1,19 @@
+{
+	"index": {
+        "site_url": "commodity-finance",
+        "title": "Commodity Finance - Trailstone",
+        "left_side_nav": "_cf-nav-sidebar",
+        "page_name": "Commodity Finance"
+
+    },
+
+    "mine-finance": {
+        "site_url": "mine-finance",
+        "title": "Mine Finance - Trailstone",
+        "left_side_nav": "_cf-nav-sidebar",
+        "page_name": "Mine Finance"
+
+    }
+
+    
+}

@@ -1,0 +1,35 @@
+{
+	"index": {
+        "site_url": "physical-platform",
+        "title": "Physical Platform - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar",
+        "page_name": "Physical Platform"
+
+    },
+
+    "trailstone-liquids": {
+        "site_url": "trailstone-liquids",
+        "title": "Trailstone Liquids - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar",
+        "page_name": "Trailstone Liquids"
+
+    },
+
+    "usoil": {
+        "site_url": "usoil",
+        "title": "USOIL - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar",
+        "page_name": "USOIL"
+
+    },
+
+    "dakota-gold-transfer": {
+        "site_url": "dakota-gold-transfer",
+        "title": "Dakota Gold Transfer - Trailstone",
+        "left_side_nav": "_focus-nav-sidebar",
+        "page_name": "Dakota Gold Transfer"
+
+    }
+
+    
+}

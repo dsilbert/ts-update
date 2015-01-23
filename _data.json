@@ -15,10 +15,20 @@
         
     },
 
+
+    "services": {
+        "site_url": "services",
+        "title": "Services - Trailstone",
+        "description": "trailstone services...",
+        "page_name": "services",
+        "layout": "_full-width-layout.jade"
+        
+    },
     "contact": {
         "site_url": "contact",
         "title": "Contact - Trailstone", 
         "description": "We have offices in London, New York, Austin, Berlin, and Sydney.",
-        "page_name": "Contact"
+        "page_name": "Contact",
+        "layout": "_full-width-layout.jade"
     }
 }
