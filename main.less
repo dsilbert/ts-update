@@ -6,35 +6,56 @@ body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !imp
 
 .wrapper h1{
   padding: 0px;
+  margin-top: 0px;
   color: #004963;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 40px;
 }
 
 
 .wrapper h2{
-  padding: 15px 0;
+  padding: 15px 0px;
   color: #004963;
   font-weight: 400;
 
 }
 
 .wrapper h3{
-  padding: 15px 0;
+  padding: 15px 0px;
   color: #72aeb6;
   font-weight: 400;
+}
 
+.wrapper p {color: #333; font-size: 15px; line-height: 23px; font-weight: 400;}
+
+
+.wrapper p.title {
+  font-weight: 600; color: #004963; font-size: 18px;
+
+}
+
+.wrapper a, .wrapper a:hover, .wrapper a:visited, .wrapper a:active {color: #72aeb6;}
+
+
+.wrapper a.btn, .wrapper a:hover.btn, .wrapper a:visited.btn, .wrapper a:active.btn {
+  text-transform: uppercase;
+  background: #72aeb6;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 0px;
+  border: none;
 }
 
 .banner-header {display: block;}
 .blue-banner {background: #004963;}
 .banner-header h1 {text-align: center; text-transform: uppercase; color: #fff; padding: 44px; font-weight: 600; font-size: 42px; margin: 0px;}
 
-.wrapper p {color: #333; font-size: 15px; line-height: 23px;}
 
 h3{font-weight: 300;}
 
-.wrapper a {color: #004963;}
 
 /*  Main Navigation */
 
@@ -80,6 +101,9 @@ header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
     font-weight: 300;
 }
 
+.breadcrumb {padding: 0px !important; background-color: #ededed !important; }
+.breadcrumb ul {display: inline; list-style-type: none; padding: 0px;}
+.breadcrumb ul li {display: inline; text-transform: uppercase;}
 
 /* Homepage Specific Styles */
 .homepage .navbar-nav>li>a.active, .homepage .navbar-nav>li>a:hover {color: #72aeb6;}

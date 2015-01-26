@@ -12,6 +12,7 @@ html
       .wrapper
         .row
           .col-md-8.col-sm-9.sidebar-page-content
+            != partial('_breadcrumb.ejs')
             != yield
           .col-md-4.col-sm-4
             block nav-sidebar

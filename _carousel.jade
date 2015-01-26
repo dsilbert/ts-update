@@ -1,10 +1,9 @@
 #myCarousel.carousel.slide(data-ride='carousel')
     // Indicators 
     ol.carousel-indicators
-      li.active(data-target='#myCarousel', data-slide-to='0')
-      |         
+      li.active(data-target='#myCarousel', data-slide-to='0')        
       li(data-target='#myCarousel', data-slide-to='1')
-    |       
+      li(data-target='myCarousel', data-slide-to='2')       
     .carousel-inner(role='listbox')
       .item.active    
         .container
@@ -13,7 +12,17 @@
               | Through vision, integrity and collaboration, we create a platform for partnership and shared success   
             p
               a.btn.btn-lg.btn-primary(href='/about', role='button') Learn More
-      |         
+      .item         
+        .container
+          .carousel-caption
+            h1.larger TrailStone Group Invests in MP2 Energy 
+            |               
+            p
+              | January 22, 2015
+            |               
+            p
+              a.btn.btn-lg.btn-primary(href='/about/press/trailstone-group-invests-in-mp2-energy', role='button') Read More
+      
       .item         
         .container
           .carousel-caption
@@ -24,14 +33,4 @@
             |               
             p
               a.btn.btn-lg.btn-primary(href='/about/press/trailstone-acquires-u-s-oil-refining-co', role='button') Read Press Release
-    //  Commenting out overlays for now
-      |       
-      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
-        span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-        |         
-        span.sr-only Previous
-      |       
-      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
-        span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-        |         
-        span.sr-only Next
+
