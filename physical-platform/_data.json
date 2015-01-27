@@ -4,7 +4,7 @@
         "title": "Physical Platform - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
         "page_name": "Physical Platform", 
-        "banner_icon": "/images/train-icon.png"
+        "banner_icon": "/images/freight-train-icon-111x40.png"
 
     },
 
@@ -13,7 +13,7 @@
         "title": "Trailstone Liquids - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
         "page_name": "Trailstone Liquids", 
-        "banner_icon": "/images/train-icon.png"
+        "banner_icon": "/images/freight-train-icon-111x40.png"
 
     },
 
@@ -22,7 +22,7 @@
         "title": "USOIL - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
         "page_name": "USOIL", 
-        "banner_icon": "/images/train-icon.png"
+        "banner_icon": "/images/freight-train-icon-111x40.png"
 
     },
 
@@ -31,7 +31,7 @@
         "title": "Dakota Gold Transfer - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
         "page_name": "Dakota Gold Transfer", 
-        "banner_icon": "/images/train-icon.png"
+        "banner_icon": "/images/freight-train-icon-111x40.png"
 
     }
 

@@ -11,7 +11,8 @@
         "site_url": "industries",
         "title": "Industries - Trailstone",
         "description": "trailstone industries...",
-        "page_name": "Industries"
+        "page_name": "Industries",
+        "layout": "_full-width-layout.jade"
         
     },
 

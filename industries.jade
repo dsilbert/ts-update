@@ -1,11 +1,55 @@
 append styles
   link(href="/about/blue-banner.css", rel="stylesheet")
-p The following industries Trailstone is involved in (this is just placement text). 
-p 
-  a(href='/physical-platform') Trailstone Liquids
-p 
-  a(href='/asset-management/european-power-gas') European Power & Gas
-p 
-  a(href='/asset-management/north-american-power-gas') North American Power & Gas
-p 
-  a(href='/commodity-finance/mine-finance') Metals & Mining
+.row.our-services.physical-platform
+  .col-sm-5.our-services
+    a(href='/physical-platform/trailstone-liquids')
+      img(src='images/services-freight-train.png' class='img-responsive')
+    a(href='/physical-platform/trailstone-liquids')
+      h3 
+        | Trailstone 
+        br
+        | Liquids
+  .col-sm-7.our-services
+    p With the prolific changes to the North American oil and NGL supply quantum and location, TrailStone sees great potential in midstream activities and investments. 
+    p.service-btn
+      a.physical-service-btn(href='/physical-platform/trailstone-liquids') Learn more
+.row.our-services.asset-management
+  .col-sm-5.our-services
+    a(href='/asset-management/european-power-gas')
+      img(src='images/services-windmill-icon.png' class='img-responsive')
+    a(href='/asset-management/european-power-gas')
+      h3 
+        | European
+        br
+        | Power & Gas
+  .col-sm-7.our-services
+    p In Europe, TrailStone offers a platform to operate, trade and schedule physical electricity and gas assets. With teams working in our offices in London and Berlin we operate 24 hours a day and 7 days a week, focusing on all aspects of managing risk inherent in the physical power and gas markets.
+    p.service-btn
+      a.asset-service-btn(href='/asset-management/european-power-gas') Learn more
+.row.our-services.asset-management.na-power-industry
+  .col-sm-5.our-services
+    a(href='/asset-management/north-american-power-gas')
+      img(src='images/services-windmill-icon.png' class='img-responsive')
+    a(href='/asset-management/north-american-power-gas')
+      h3 
+        | North American
+        br
+        | Power & Gas
+  .col-sm-7.our-services
+    p The exploration of unconventional oil and natural gas fields in North America have had sweeping impacts on supply import/export dynamics, locational price differentials, and the shape of the financial markets for the natural gas and secondarily power markets. Managing assets has never been more challenging. TrailStone can help.
+    p.service-btn
+      a.asset-service-btn(href='/asset-management/north-american-power-gas') Learn more
+.row.our-services.commodity-finance
+  .col-sm-5.our-services
+    a(href='/commodity-finance/mine-finance')
+      img(src='images/services-commodity-icon.png' class='img-responsive')
+    a(href='/commodity-finance/mine-finance')
+      h3 
+        | Metals 
+        br  
+        | & Mining
+  .col-sm-7.our-services
+    p TrailStone is a well capitalized investment business dedicated to the mining sector with access to US$1bn of investible funds. Our mandate is to invest in the mining sector across a diversified range of geographic regions. 
+    p.service-btn
+      a.commodity-service-btn(href='/commodity-finance/mine-finance') Learn more
+

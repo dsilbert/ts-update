@@ -38,7 +38,7 @@ body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !imp
 
 }
 
-.wrapper a, .wrapper a:hover, .wrapper a:visited, .wrapper a:active {color: #72aeb6;}
+.wrapper a, .wrapper a:hover, .wrapper a:visited, .wrapper a:active {color: #72aeb6; font-weight: 600;}
 
 
 .wrapper a.btn, .wrapper a:hover.btn, .wrapper a:visited.btn, .wrapper a:active.btn {
@@ -55,8 +55,8 @@ body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !imp
 
 .banner-header {display: block;}
 .blue-banner {background: #004963;}
-.banner-header h1 {text-align: center; text-transform: uppercase; color: #fff; padding: 44px; font-weight: 600; font-size: 42px; margin: 0px;}
-
+.banner-header h1 {text-align: center; text-transform: uppercase; color: #fff; padding: 44px; font-weight: 600; font-size: 44px; margin: 0px;}
+.banner-header h1 img {vertical-align: bottom;}
 
 h3{font-weight: 300;}
 
@@ -192,9 +192,12 @@ header#top {background: #ffffff;}
 /* Footer */
 
 
-footer {background: #004963; color: #f5f5f5; font-size: 12px; height: 80px; padding: 15px; margin-top: 40px;}
+footer {font-weight: 600; text-transform: uppercase; background: #004963; color: #f5f5f5; font-size: 12px; height: 80px; padding: 15px; margin-top: 40px;}
 footer a, footer a:active, footer a:visited {color: #f5f5f5;}
 footer a:hover {color: #f5f5f5; text-decoration: underline;}
+footer .footer-nav {float: right; display: block; text-transform: uppercase;}
+footer .footer-nav ul {display: inline;}
+footer .footer-nav ul li{display: inline; margin-right: 15px; font-weight: 600;}
 
 
 /* footer fix */
@@ -220,11 +223,24 @@ img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
 
   /* Services page */ 
 .our-services {display: block; padding: 20px;}
-.our-services img {float: left; width: 90px;}
-.our-services h3 {padding: 0px; float: left; font-size: 36px; line-height: 44px; font-weight: 600; color: #ffffff;}
-.our-services p {float: left; color: #ffffff; font-size: 16px;}
+.our-services img {float: right; padding: 20px 10px;}
+.our-services h3 {margin-left: 15px; padding: 0px; float: left; font-size: 36px; line-height: 44px; font-weight: 600; color: #ffffff;}
+.our-services p {float: left; color: #ffffff; font-size: 16px; font-weight: 600;}
 .our-services a, .our-services a:hover, .our-services a:visited, .our-services a:active {color: #fff; text-transform: uppercase; font-size: 17px; font-weight: 600;}
+.service-btn {margin-top: 25px;}
+a.asset-service-btn, a:hover.asset-service-btn{background: #ffffff;color: #72aeb6; padding: 10px 15px; margin-top: 15px;}
 
+a.commodity-service-btn, a:hover.commodity-service-btn {
+    background: #ffffff; padding: 10px 15px; margin-top: 15px;
+    color: #e7cf00;
+}
+
+a.physical-service-btn, a:hover.physical-service-btn {
+    background: #ffffff; padding: 10px 15px; margin-top: 15px;
+    color: #004963;
+}
+
+.na-power-industry {border-top: 1px solid #ededed;}
 /*
  * Sidebar
  */
@@ -300,6 +316,8 @@ img.team {float: right; margin-left: 20px; margin-bottom: 20px;}
 .nav-sidebar ul li a, .nav-sidebar ul li a:visited {
   text-decoration: none;
   color: #004963;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .nav-sidebar ul li a:hover, .nav-sidebar ul li a.active{
   color: #004963;

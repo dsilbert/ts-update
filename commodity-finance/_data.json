@@ -3,7 +3,8 @@
         "site_url": "commodity-finance",
         "title": "Commodity Finance - Trailstone",
         "left_side_nav": "_cf-nav-sidebar",
-        "page_name": "Commodity Finance"
+        "page_name": "Commodity Finance",
+        "banner_icon": "/images/commodity-hammer-icon-56x50.png"
 
     },
 
@@ -12,7 +13,7 @@
         "title": "Mine Finance - Trailstone",
         "left_side_nav": "_cf-nav-sidebar",
         "page_name": "Mine Finance", 
-        "banner_icon": "/images/commodity-hammer-icon.png"
+        "banner_icon": "/images/commodity-hammer-icon-56x50.png"
 
     }
 
