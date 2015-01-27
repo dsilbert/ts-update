@@ -3,7 +3,8 @@
         "site_url": "asset-management",
         "title": "Asset Management - Trailstone",
         "left_side_nav": "_asset-nav-sidebar",
-        "page_name": "Asset Management"
+        "page_name": "Asset Management",
+        "banner_icon": "/images/windmill-icon.png"
 
     },
 
@@ -11,7 +12,8 @@
         "site_url": "european-power-gas",
         "title": "European Power & Gas - Trailstone",
         "left_side_nav": "_asset-nav-sidebar",
-        "page_name": "European Power & Gas"
+        "page_name": "European Power & Gas",
+        "banner_icon": "/images/windmill-icon.png"
 
     },
 
@@ -19,7 +21,8 @@
         "site_url": "north-american-power-gas",
         "title": "North American Power & Gas - Trailstone",
         "left_side_nav": "_asset-nav-sidebar",
-        "page_name": "North American Power & Gas"
+        "page_name": "North American Power & Gas",
+        "banner_icon": "/images/windmill-icon.png"
 
     }
 

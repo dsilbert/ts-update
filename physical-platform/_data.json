@@ -3,7 +3,8 @@
         "site_url": "physical-platform",
         "title": "Physical Platform - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
-        "page_name": "Physical Platform"
+        "page_name": "Physical Platform", 
+        "banner_icon": "/images/train-icon.png"
 
     },
 
@@ -11,7 +12,8 @@
         "site_url": "trailstone-liquids",
         "title": "Trailstone Liquids - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
-        "page_name": "Trailstone Liquids"
+        "page_name": "Trailstone Liquids", 
+        "banner_icon": "/images/train-icon.png"
 
     },
 
@@ -19,7 +21,8 @@
         "site_url": "usoil",
         "title": "USOIL - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
-        "page_name": "USOIL"
+        "page_name": "USOIL", 
+        "banner_icon": "/images/train-icon.png"
 
     },
 
@@ -27,7 +30,8 @@
         "site_url": "dakota-gold-transfer",
         "title": "Dakota Gold Transfer - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
-        "page_name": "Dakota Gold Transfer"
+        "page_name": "Dakota Gold Transfer", 
+        "banner_icon": "/images/train-icon.png"
 
     }
 

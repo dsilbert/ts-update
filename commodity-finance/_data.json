@@ -11,7 +11,8 @@
         "site_url": "mine-finance",
         "title": "Mine Finance - Trailstone",
         "left_side_nav": "_cf-nav-sidebar",
-        "page_name": "Mine Finance"
+        "page_name": "Mine Finance", 
+        "banner_icon": "/images/commodity-hammer-icon.png"
 
     }
 
