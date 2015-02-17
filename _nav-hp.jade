@@ -17,8 +17,17 @@ header#top.navbar.navbar-static-top.navbar-fixed-top(role='banner')
                     a(href='/about/team') Executive Team
                   li
                     a(href='/about/press') Press
-            li
-              a(href='/industries', role='button', aria-expanded='false') Industries
+            li.dropdown
+              a.dropdown-toggle(href='/business-areas', role='button', aria-expanded='false') Business Areas
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/physical-platform/trailstone-liquids') TrailStone Liquids
+                  li
+                    a(href='/asset-management/european-power-gas') European Power & Gas
+                  li
+                    a(href='/asset-management/north-american-power-gas') North American Power & Gas
+                  li
+                    a(href='/commodity-finance/mine-finance') Metals & Mining
             li.dropdown
               a.dropdown-toggle(href='/services', role='button', aria-expanded='false') Services
                 ul.dropdown-menu(role='menu')
@@ -26,7 +35,19 @@ header#top.navbar.navbar-static-top.navbar-fixed-top(role='banner')
                     a(href='/asset-management') Asset Management
                   li
                     a(href='/commodity-finance/mine-finance') Commodity Finance
-            li
-              a(href='/physical-platform', role='button', aria-expanded='false') Physical Platform
-            li
-              a(href='/contact') Contact
+            li.dropdown
+              a.dropdown-toggle(href='/physical-platform', role='button', aria-expanded='false') Physical Platform
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/physical-platform/trailstone-liquids') TrailStone Liquids
+                  li
+                    a(href='/physical-platform/usoil') USOIL
+                  li
+                    a(href='/physical-platform/north-dakota-truck-to-rail-terminal') North Dakota Truck-to-Rail Terminal
+            li.dropdown
+              a.dropdown-toggle(href='/contact', role='button', aria-expanded='false') Contact
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/contact/') Offices
+                  li
+                    a(href='/people') People

@@ -26,11 +26,11 @@
 
     },
 
-    "dakota-gold-transfer": {
-        "site_url": "dakota-gold-transfer",
-        "title": "Dakota Gold Transfer - Trailstone",
+    "north-dakota-truck-to-rail-terminal": {
+        "site_url": "north-dakota-truck-to-rail-terminal",
+        "title": "North Dakota Truck-to-Rail Terminal - Trailstone",
         "left_side_nav": "_focus-nav-sidebar",
-        "page_name": "Dakota Gold Transfer", 
+        "page_name": "North Dakota Truck-to-Rail Terminal", 
         "banner_icon": "/images/freight-train-icon-111x40.png"
 
     }
