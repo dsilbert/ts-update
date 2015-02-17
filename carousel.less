@@ -3,7 +3,7 @@
 
 /* Carousel base class */
 .carousel {
-  height: 395px !important;
+  height: 263px !important;
   margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -14,14 +14,15 @@
 }
 
 .carousel-caption h1 {
-  font-size: 46px; 
-  line-height: 54px;
-  font-weight: 600;
-  text-align: left;
-  padding-top: 24px;
-  width: 90%;
+  font-size: 32px; 
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 18px;
   text-shadow: none !important;
 }
+
+/* not currently using 
 
 .carousel-caption h1.larger {
   font-size: 54px;
@@ -32,8 +33,10 @@
   width: 72%;
 }
 
+*/ 
+
 .carousel-caption p {
-  text-align: left;
+  text-align: center;
   font-size: 24px;
 }
 
@@ -46,11 +49,13 @@
   border-radius: 0px;
 }
 
-
+.carousel-indicators {
+  display: none;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 395px !important;
+  height: 263px !important;
   background-color: #004963 !important;
 }
 

@@ -19,7 +19,12 @@ body {margin-bottom: 25px; background: #ededed !important; margin-top: 50px !imp
   color: #004963;
   font-weight: 600;
   text-transform: uppercase;
+}
 
+.wrapper h2.what-we-do {
+  text-transform: none;
+  padding-top: 35px;
+  font-size: 37px;
 }
 
 .wrapper h3{
@@ -66,13 +71,14 @@ h3{font-weight: 300;}
 .nav {display: inline; text-transform: uppercase; font-weight: 600; }
 .navbar {min-height: 60px !important;}
 .navbar-brand {padding-top: 17px !important;}
-.navbar-brand img {width: 206px; height: 22px;}
+.navbar-brand img {width: 233px; height: 25px;}
 .navbar-nav>li>a.active, .navbar-nav>li>a:hover {color: #72aeb6;}
 .dropdown-menu > li > a {background: #ffffff; color: #004963 !important; font-weight: 600 !important;}
 header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
 .navbar-nav>li>a, .navbar-nav>li>a:visited {color: #004963; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #ffffff !important;}
 .dropdown-menu {background: #ffffff !important; border: none !important;}
 .dropdown-menu>li>a:hover,  .dropdown-menu>li>a:active {background: #72aeb6 !important;}
+.dropdown-menu>li>a:hover {color: #fff !important;}
 
 
 /* Dropdown hover css fix for parent click issue */
@@ -90,7 +96,6 @@ header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
     margin-left: -1px !important;
     border-radius: 0 !important;
 }
-
 .dropdown-submenu:hover>.dropdown-menu {
     display: block !important;
 }
@@ -114,7 +119,7 @@ header#top {background: #ffffff; border-bottom: 1px solid #ffffff;}
 .homepage .dropdown-menu > li > a {background: #004963; color: #ffffff !important;}
 .homepage header#top {background: #004963; border-bottom: 1px solid #c9dad1;}
 .homepage .navbar-nav>li>a, .homepage .navbar-nav>li>a:visited {color: #ffffff; text-shadow: none !important; padding-top: 20px !important; padding-bottom: 20px !important; background: #004963 !important;}
-
+.homepage .navbar-toggle .icon-bar {background: #fff;}
 .homepage {background: #ededed;}
 .homepage h1 {color: #ffffff;}
 .homepage h2 {color: #004963; font-size: 42px; text-align: center; font-weight: 600; margin: 20px auto;}
@@ -276,13 +281,22 @@ a.physical-service-btn, a:hover.physical-service-btn {
 @media (min-width: 768px) {
     .col-xs-12 .nav-sidebar {
       display: none;
-  }
+    }
 }
 
 @media (max-width: 768px) {
     .col-md-3 .nav-sidebar {
       display: none;
   }
+
+  /* not currently working 
+    .dropdown-menu {
+      display: none;
+    }
+    ul.dropdown-menu>li>a {
+      display: none;
+    }
+    */
 }
 
 @media (max-width: 768px) {
