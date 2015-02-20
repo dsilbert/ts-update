@@ -29,16 +29,15 @@
         "site_url": "contact",
         "title": "Contact - Trailstone", 
         "description": "We have offices in London, New York, Austin, Berlin, and Sydney.",
-        "page_name": "Contact",
-        "layout": "_full-width-layout.jade"
-    },
+        "left_side_nav": "_contact-nav-sidebar",
+        "page_name": "Contact"    },
 
     "people": {
         "site_url": "people",
         "title": "People - Trailstone", 
         "description": "Here are a list of TrailStone employees to contact.",
-        "page_name": "Contact",
-        "layout": "_full-width-layout.jade"
+        "left_side_nav": "_contact-nav-sidebar",
+        "page_name": "Contact"
     }
 
 }
