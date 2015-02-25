@@ -12,7 +12,8 @@
         "title": "Business Areas - Trailstone",
         "description": "trailstone industries...",
         "page_name": "Business Areas",
-        "layout": "_full-width-layout.jade"
+        "layout": "_full-width-layout.jade",
+        "banner_icon_class": "banner-icon-none"
         
     },
 
@@ -22,22 +23,27 @@
         "title": "Services - Trailstone",
         "description": "trailstone services...",
         "page_name": "services",
-        "layout": "_full-width-layout.jade"
+        "layout": "_full-width-layout.jade",
+        "banner_icon_class": "banner-icon-none"
         
     },
+
     "contact": {
         "site_url": "contact",
         "title": "Contact - Trailstone", 
         "description": "We have offices in London, New York, Austin, Berlin, and Sydney.",
         "left_side_nav": "_contact-nav-sidebar",
-        "page_name": "Contact"    },
+        "page_name": "Contact",
+        "banner_icon_class": "banner-icon-none"
+    },
 
     "people": {
         "site_url": "people",
         "title": "People - Trailstone", 
         "description": "Here are a list of TrailStone employees to contact.",
         "left_side_nav": "_contact-nav-sidebar",
-        "page_name": "Contact"
+        "page_name": "Contact",
+        "banner_icon_class": "banner-icon-none"
     }
 
 }

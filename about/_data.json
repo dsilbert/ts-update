@@ -4,7 +4,8 @@
         "title": "About - Trailstone",
         "description": "TrailStone was formed in April 2013 and is a group of separate companies, each staffed by energy and finance professionals with in-depth experience of mining, oil and gas",
         "left_side_nav": "_about-nav-sidebar",
-        "page_name": "About Trailstone"
+        "page_name": "About Trailstone",
+        "banner_icon_class": "banner-icon-none"
     }
 
 }
